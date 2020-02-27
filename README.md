@@ -4,7 +4,7 @@
 
 ### Install
 
-- [**Chrome** extension][link-cws] [<img valign="middle" src="https://img.shields.io/chrome-web-store/v/fdhfdpafombnahpjjjcfopmehfofbdko.svg?label=%20">][link-cws]
+- WIP
 
 ### Demo
 
