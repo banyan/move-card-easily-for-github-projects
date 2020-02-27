@@ -1,0 +1,39 @@
+{
+    "manifest_version": 2,
+    "name": "GitHub Projects Easy Motion",
+    "description": "Chrome extension to move a card in GitHub projecs even if the column is long.",
+    "short_name": "GitHub Projects Easy Motion",
+    "version": "0.0.1",
+    "author": "Kohei Hasegawa",
+    "homepage_url": "https://github.com/banyan/github-projects-easy-motion",
+    "icons": {
+        "16": "assets/images/icon.png",
+        "48": "assets/images/icon.png",
+        "128": "assets/images/icon.png"
+    },
+    "permissions": [
+        "https://github.com/*",
+        "contextMenus",
+        "activeTab"
+    ],
+    "optional_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ],
+    "background": {
+        "scripts": [
+            "dist/background.js"
+        ],
+        "persistent": false
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://github.com/*/*/projects/*"
+            ],
+            "js": [
+                "dist/main.js"
+            ]
+        }
+    ]
+}
