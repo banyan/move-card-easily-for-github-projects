@@ -1,14 +1,17 @@
 import { debounce } from './utils';
 
 const waitMs = 30;
-const cssTextToShrink = "min-width: 30px;";
+const cssTextToShrink = 'min-width: 30px;';
 
-const columns = () => document.querySelectorAll<HTMLDivElement>('.js-project-column');
+const columns = () =>
+  document.querySelectorAll<HTMLDivElement>('.js-project-column');
 
 const callback = () => {
-  const chosen = document.querySelector('.js-project-column .sortable-chosen')
-  const ghost = document.querySelector('.js-project-column .sortable-ghost')
-  const addColumn = document.querySelector<HTMLDivElement>('.js-new-project-column-container')
+  const chosen = document.querySelector('.js-project-column .sortable-chosen');
+  const ghost = document.querySelector('.js-project-column .sortable-ghost');
+  const addColumn = document.querySelector<HTMLDivElement>(
+    '.js-new-project-column-container',
+  );
 
   // without ghost, it would fire just click the title and can't drag it.
   if (chosen && ghost) {
@@ -16,21 +19,21 @@ const callback = () => {
     const ghostColumn = ghost?.parentElement?.parentElement;
 
     // addColumn occupies a large area of land.
-    if (addColumn) addColumn.style.cssText = "display: none";
+    if (addColumn) addColumn.style.cssText = 'display: none';
 
-    columns().forEach((column) => {
+    columns().forEach(column => {
       if (column !== chosenColumn && column !== ghostColumn) {
         column.style.cssText = cssTextToShrink;
       } else {
-        column.removeAttribute('style')
+        column.removeAttribute('style');
       }
     });
   } else {
     columns().forEach(column => {
-      column.removeAttribute('style')
+      column.removeAttribute('style');
     });
     if (addColumn) {
-      addColumn.removeAttribute('style')
+      addColumn.removeAttribute('style');
     }
   }
 };
@@ -46,5 +49,7 @@ const options = {
 if (!!targetNode) {
   observer.observe(targetNode, options);
 } else {
-  throw new Error('.js-project-columns is missing. GitHub must be changed the css :p');
+  throw new Error(
+    '.js-project-columns is missing. GitHub must be changed the css :p',
+  );
 }
