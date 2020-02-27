@@ -2,12 +2,6 @@
 
 >Chrome extension to move a card easily in GitHub Projects.
 
-### Install
-
-- WIP
-
-### Demo
-
 #### Before
 
 ![GIF](./assets/before.gif)
@@ -15,6 +9,10 @@
 #### After
 
 ![GIF](./assets/after.gif)
+
+### Install
+
+- WIP
 
 ### License
 
