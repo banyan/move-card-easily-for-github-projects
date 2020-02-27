@@ -12,7 +12,7 @@
 
 ### Install
 
-- WIP
+- TBD
 
 ### License
 
