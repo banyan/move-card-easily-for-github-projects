@@ -13,7 +13,7 @@ const callback = () => {
     '.js-new-project-column-container',
   );
 
-  // without ghost, it would fire just click the title and can't drag it.
+  // without ghost, just clicking the title would fire the event and can't drag it.
   if (chosen && ghost) {
     const chosenColumn = chosen?.parentElement?.parentElement;
     const ghostColumn = ghost?.parentElement?.parentElement;
