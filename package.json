@@ -3,7 +3,7 @@
     "typecheck": "tsc --noEmit",
     "build": "node fuse.js",
     "build:watch": "node fuse --variant watch",
-    "build:zip": "yarn build && rm -f github-projects-easy-motion.zip && zip -r github-projects-easy-motion.zip dist manifest.json assets/images",
+    "build:zip": "yarn build && rm -f move-card-easily.zip && zip -r move-card-easily.zip dist manifest.json assets/images",
     "fmt": "prettier --write **/*.ts"
   },
   "dependencies": {
