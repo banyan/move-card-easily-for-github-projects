@@ -1,14 +1,13 @@
 <div align="center">
   <img src="assets/logo.png" alt="github-story-points" width="600">
   <br>
-  <b>Browser extension to see story points in GitHub projects</b>
+  <b>Chrome extension to move a card easily in GitHub Projects.</b>
   <hr>
 </div>
 
 ### Install
 
 - [**Chrome** extension][link-cws] [<img valign="middle" src="https://img.shields.io/chrome-web-store/v/fdhfdpafombnahpjjjcfopmehfofbdko.svg?label=%20">][link-cws]
-- [**Firefox** add-on][link-amo] [<img valign="middle" src="https://img.shields.io/amo/v/github-story-points.svg?label=%20">][link-amo]
 
 ### Usage
 
@@ -27,4 +26,3 @@ You can try [demo project](https://github.com/banyan/github-story-points-sandbox
 MIT
 
 [link-cws]: https://chrome.google.com/webstore/detail/github-story-points/fdhfdpafombnahpjjjcfopmehfofbdko "Version published on Chrome Web Store"
-[link-amo]: https://addons.mozilla.org/en-US/firefox/addon/github-story-points/ "Version published on Mozilla Add-ons"
