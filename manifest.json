@@ -13,8 +13,7 @@
     },
     "permissions": [
         "https://github.com/*",
-        "contextMenus",
-        "activeTab"
+        "contextMenus"
     ],
     "optional_permissions": [
         "http://*/*",
