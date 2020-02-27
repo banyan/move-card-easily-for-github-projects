@@ -1,4 +1,4 @@
 node_modules/
 .fusebox/
-github-story-points.zip
+*.zip
 dist/
