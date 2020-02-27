@@ -3,7 +3,8 @@
     "typecheck": "tsc --noEmit",
     "build": "node fuse.js",
     "build:watch": "node fuse --variant watch",
-    "build:zip": "yarn build && rm -f github-projects-easy-motion.zip && zip -r github-projects-easy-motion.zip dist manifest.json assets/images"
+    "build:zip": "yarn build && rm -f github-projects-easy-motion.zip && zip -r github-projects-easy-motion.zip dist manifest.json assets/images",
+    "fmt": "prettier --write **/*.ts"
   },
   "dependencies": {
     "webext-domain-permission-toggle": "^1.0.0",
@@ -11,6 +12,7 @@
   },
   "devDependencies": {
     "fuse-box": "^3.7.1",
+    "prettier": "^1.19.1",
     "typescript": "^3.8.2",
     "yargs": "^15.1.0"
   }
