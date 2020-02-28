@@ -4,9 +4,13 @@
 
 #### Before
 
+If the destination column is far away, it cannot be reached in a single drag and drop. Especially when the monitor is small, such as in a laptop environment.
+
 ![GIF](./assets/before.gif)
 
 #### After
+
+When you start drag and drop, the column shrinks to reach the desired column.
 
 ![GIF](./assets/after.gif)
 
