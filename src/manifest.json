@@ -5,6 +5,12 @@
     "short_name": "Move Card Easily for GitHub Projects",
     "version": "0.0.2",
     "author": "Kohei Hasegawa",
+	"applications": {
+		"gecko": {
+			"id": "{dfac6250-9cef-4a49-9979-68858b900c81}",
+			"strict_min_version": "70.0"
+		}
+	},
     "homepage_url": "https://github.com/banyan/move-card-easily-for-github-projects",
     "icons": {
         "16": "./images/icon-16x16.png",
