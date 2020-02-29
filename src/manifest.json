@@ -3,7 +3,7 @@
     "name": "Move Card Easily for GitHub Projects",
     "description": "Browser extension to move a card easily in GitHub Projects.",
     "short_name": "Move Card Easily for GitHub Projects",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "author": "Kohei Hasegawa",
 	"applications": {
 		"gecko": {
