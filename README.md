@@ -14,9 +14,24 @@ When you start drag and drop, the column shrinks to reach the desired column.
 
 ![GIF](./assets/after.gif)
 
-### Install
+### Installation
 
-- TBD
+<table>
+  <tbody>
+    <tr>
+      <td align="center">
+        <img height="64" src="https://cdnjs.cloudflare.com/ajax/libs/browser-logos/61.1.3/chrome/chrome.svg">
+        <br>
+        <strong>Chrome</strong> extension / Waiting to be published.
+      </td>
+      <td align="center">
+        <a href="https://addons.mozilla.org/ja/firefox/addon/move-card-easily"><img height="64" src="https://cdnjs.cloudflare.com/ajax/libs/browser-logos/61.1.3/firefox/firefox.svg"></a>
+        <br>
+        <a href="https://addons.mozilla.org/ja/firefox/addon/move-card-easily"><strong>Firefox</strong> add-on</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### License
 
