@@ -19,7 +19,7 @@
     "@wext/shipit": "^0.2.1",
     "fuse-box": "^3.7.1",
     "prettier": "^1.19.1",
-    "typescript": "^3.8.2",
+    "typescript": "^3.8.3",
     "yargs": "^15.1.0"
   }
 }
