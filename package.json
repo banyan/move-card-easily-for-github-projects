@@ -1,9 +1,14 @@
 {
   "scripts": {
+    "clean": "rm -rf dist _dist move-card-easily.zip",
     "typecheck": "tsc --noEmit",
     "build": "node fuse.js",
     "build:watch": "node fuse --variant watch",
-    "build:zip": "yarn build && rm -f move-card-easily.zip && zip -r move-card-easily.zip dist manifest.json assets/images",
+    "build:dist": "yarn clean && yarn build && mkdir _dist && cp manifest.json _dist && cp -R assets _dist && cp -R dist _dist",
+    "build:zip": "yarn clean && yarn build && zip -r move-card-easily.zip dist manifest.json assets/images",
+    "release-cws": "yarn build:dist && shipit chrome _dist",
+    "release-amo": "yarn build:dist && shipit firefox _dist",
+    "release": "yarn release-cws && yarn release-amo",
     "fmt": "prettier --write **/*.ts"
   },
   "dependencies": {
@@ -11,9 +16,12 @@
     "webext-dynamic-content-scripts": "^6.0.3"
   },
   "devDependencies": {
+    "@wext/shipit": "^0.2.1",
+    "chrome-webstore-upload-cli": "^1.2.0",
     "fuse-box": "^3.7.1",
     "prettier": "^1.19.1",
     "typescript": "^3.8.2",
+    "web-ext-submit": "^4.1.0",
     "yargs": "^15.1.0"
   }
 }

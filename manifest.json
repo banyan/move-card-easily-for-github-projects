@@ -3,7 +3,7 @@
     "name": "Move Card Easily for GitHub Projects",
     "description": "Chrome extension to move a card easily in GitHub Projects.",
     "short_name": "Move Card Easily for GitHub Projects",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": "Kohei Hasegawa",
     "homepage_url": "https://github.com/banyan/move-card-easily-for-github-projects",
     "icons": {
