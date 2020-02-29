@@ -1,6 +1,6 @@
 # move-card-easily-for-github-projects
 
->Chrome extension to move a card easily in GitHub Projects.
+>Browser extension to move a card easily in GitHub Projects.
 
 #### Before
 

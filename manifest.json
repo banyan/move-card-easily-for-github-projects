@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Move Card Easily for GitHub Projects",
-    "description": "Chrome extension to move a card easily in GitHub Projects.",
+    "description": "Browser extension to move a card easily in GitHub Projects.",
     "short_name": "Move Card Easily for GitHub Projects",
     "version": "0.0.2",
     "author": "Kohei Hasegawa",
