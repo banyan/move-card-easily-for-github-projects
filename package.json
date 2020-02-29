@@ -17,11 +17,9 @@
   },
   "devDependencies": {
     "@wext/shipit": "^0.2.1",
-    "chrome-webstore-upload-cli": "^1.2.0",
     "fuse-box": "^3.7.1",
     "prettier": "^1.19.1",
     "typescript": "^3.8.2",
-    "web-ext-submit": "^4.1.0",
     "yargs": "^15.1.0"
   }
 }
