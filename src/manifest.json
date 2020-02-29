@@ -7,9 +7,9 @@
     "author": "Kohei Hasegawa",
     "homepage_url": "https://github.com/banyan/move-card-easily-for-github-projects",
     "icons": {
-        "16": "assets/images/icon.png",
-        "48": "assets/images/icon.png",
-        "128": "assets/images/icon.png"
+        "16": "./images/icon-16x16.png",
+        "48": "./images/icon.png",
+        "128": "./images/icon-128x128.png"
     },
     "permissions": [
         "https://github.com/*",

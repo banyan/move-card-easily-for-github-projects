@@ -1,4 +1,4 @@
-const { FuseBox } = require("fuse-box");
+const { FuseBox, CopyPlugin } = require("fuse-box");
 const argv = require('yargs').argv;
 
 const isWatch = argv.variant === 'watch';
@@ -11,7 +11,5 @@ const fuse = FuseBox.init({
 
 const app = fuse.bundle("main").instructions("> [main.ts]");
 isWatch && app.watch();
-
 fuse.bundle("background").instructions("> background.ts");
-
 fuse.run();

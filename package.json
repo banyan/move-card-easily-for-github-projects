@@ -1,13 +1,13 @@
 {
   "scripts": {
-    "clean": "rm -rf dist _dist move-card-easily.zip",
+    "clean": "rm -rf dist move-card-easily.zip",
     "typecheck": "tsc --noEmit",
-    "build": "node fuse.js",
+    "copy-assets": "cp src/manifest.json dist && cp -R src/images dist",
+    "build": "node fuse.js && yarn copy-assets",
     "build:watch": "node fuse --variant watch",
-    "build:dist": "yarn clean && yarn build && mkdir _dist && cp manifest.json _dist && cp -R assets _dist && cp -R dist _dist",
-    "build:zip": "yarn clean && yarn build && zip -r move-card-easily.zip dist manifest.json assets/images",
-    "release-cws": "yarn build:dist && shipit chrome _dist",
-    "release-amo": "yarn build:dist && shipit firefox _dist",
+    "build:zip": "yarn clean && yarn build && zip -r move-card-easily.zip dist",
+    "release-cws": "yarn build && shipit chrome dist",
+    "release-amo": "yarn build && shipit firefox dist",
     "release": "yarn release-cws && yarn release-amo",
     "fmt": "prettier --write **/*.ts"
   },
