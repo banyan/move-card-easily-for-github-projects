@@ -20,14 +20,22 @@ When you start drag and drop, the column shrinks to reach the desired column.
   <tbody>
     <tr>
       <td align="center">
-        <img height="64" src="https://cdnjs.cloudflare.com/ajax/libs/browser-logos/61.1.3/chrome/chrome.svg">
+        <a href="https://chrome.google.com/webstore/detail/move-card-easily-for-gith/emnofpfklncciehcecbheihknhhamkba">
+          <img height="64" src="https://cdnjs.cloudflare.com/ajax/libs/browser-logos/61.1.3/chrome/chrome.svg">
+        </a>
         <br>
-        <strong>Chrome</strong> extension / Waiting to be published.
+        <a href="https://chrome.google.com/webstore/detail/move-card-easily-for-gith/emnofpfklncciehcecbheihknhhamkba">
+          <strong>Chrome</strong> extension
+        </a>
       </td>
       <td align="center">
-        <a href="https://addons.mozilla.org/ja/firefox/addon/move-card-easily"><img height="64" src="https://cdnjs.cloudflare.com/ajax/libs/browser-logos/61.1.3/firefox/firefox.svg"></a>
+        <a href="https://addons.mozilla.org/ja/firefox/addon/move-card-easily">
+          <img height="64" src="https://cdnjs.cloudflare.com/ajax/libs/browser-logos/61.1.3/firefox/firefox.svg">
+        </a>
         <br>
-        <a href="https://addons.mozilla.org/ja/firefox/addon/move-card-easily"><strong>Firefox</strong> add-on</a>
+        <a href="https://addons.mozilla.org/ja/firefox/addon/move-card-easily">
+          <strong>Firefox</strong> add-on
+        </a>
       </td>
     </tr>
   </tbody>
@@ -36,5 +44,3 @@ When you start drag and drop, the column shrinks to reach the desired column.
 ### License
 
 MIT
-
-[link-cws]: https://chrome.google.com/webstore/detail/github-story-points/fdhfdpafombnahpjjjcfopmehfofbdko "Version published on Chrome Web Store"
